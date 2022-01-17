@@ -12,5 +12,5 @@ recognition.onresult = function(event){
     var content= event.results[0][0].transcript;
     console.log(content);
 
-    document.getElementById("textbox").innerHTML= content;
+    document.getElementById("textbox").innerHTML= content
 }
